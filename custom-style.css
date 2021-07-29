@@ -1,11 +1,27 @@
+/* banner style */
 
-header{
-    background-color:  #264653;
+header {
+    background-color: #264653;
     color: white;
 }
 
-.stars
-{
+
+/* clients card style */
+
+.stars {
     color: orange;
 }
 
+.card h5,
+.card p {
+    text-align: center;
+}
+
+
+/* Warranty Section style */
+
+.warranty {
+    background-color: #03161f;
+    color: #FFD580;
+    font-size: 2em;
+}

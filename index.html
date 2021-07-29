@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honda CBR</title>
-    
+
     <!-- customized CSS link -->
     <link rel="stylesheet" href="custom-style.css">
 
     <!-- Bootstrap Style sheet -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-            <!-- google font link -->
+    <!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -22,7 +21,8 @@
     <!-- font awesome link -->
     <script src="https://kit.fontawesome.com/a5962f4fab.js" crossorigin="anonymous"></script>
 
-
+    <!-- Animation link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
@@ -32,135 +32,287 @@
         <section>
             <div class="container">
                 <div class="row">
-                  <div class="col-xs-12 col-lg-6 pt-5">
-                    <h6>Computer-controlled digital transistorized with electronic advance</h6>
-                    <h1>Honda CBR 300R</h1>
-                    <p class="w-75">If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the
-                        2021 Honda CBR300R is your sweet spot between form and function.</p>
+                    <div class="col-xs-12 col-lg-6 pt-5">
+                        <h6>Computer-controlled digital transistorized with electronic advance</h6>
+                        <h1>Honda CBR 300R</h1>
+                        <p class="w-75">If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function.</p>
 
-                         <!-- Button trigger modal -->
-                <button style="background-color: #E76F51; color:white" type="button" class="btn" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">
-                Purchase
+                        <!-- Button trigger modal -->
+                        <button style="background-color: #E76F51; color:white" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Purchase
             </button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title bg-danger" id="exampleModalLabel">This is for members
-                                only</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                aria-label="Close"></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title bg-danger" id="exampleModalLabel">This is for members only
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body bg-primary">
+                                        Become our member to get this bike now!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="modal-body bg-primary">
-                            Become our member to get this bike now!
+                    </div>
+                    <div class="col-xs-12 col-lg-6">
+                        <img width="100%" height="100%" src="images/header-bike.png" alt="">
+                    </div>
+                </div>
+        </section>
+
+    </header>
+    <main>
+
+        <!-- featured bikes -->
+
+        <section>
+            <div style="text-align: center;">
+                <h2 class="pt-5">Featured Bikes 2021</h2>
+                <small style="color: #E76F51;
+        ;">Best Bike collection</small>
+            </div>
+
+            <!-- featured bikes images -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-4 p-5">
+                        <img width="100%" height="100%" style=" filter: grayscale(100%);" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col-xs-12 col-lg-4 p-5">
+                        <img width="100%" height="100%" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col-xs-12 col-lg-4 p-5">
+                        <img width="100%" height="100%" style=" filter: grayscale(100%);" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+
+        <section>
+            <div class="p-5">
+                <h2 style="text-align: center;"><span style="color:#0A0826;">Happy </span><span style="color:#E76F51;
+      ">Clients Says</span></h2>
+            </div>
+            <div class="container">
+                <div class="row ">
+                    <!-- client One -->
+                    <div class="col-xs-12 col-lg-4 p-5">
+                        <div class="card" style="width: 100%; height: auto;">
+                            <img class="card-img-top p-4" src="images/user-1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Thank you Honda! I am still using the civic that i bought 6 years ago with no issues whatsoever.</p>
+                                <div class="stars d-flex align-items-center justify-content-center p-2 m-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <h5>Ross Geller</h5>
+                                <h5>Banker</h5>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary"
-                                data-bs-dismiss="modal">Close</button>
+                    </div>
+                    <!-- client Two -->
+                    <div class="col-xs-12 col-lg-4 p-5">
+                        <div class="card" style="width:  100%;  height: auto;">
+                            <img class="card-img-top p-4" src="images/user-2.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Thank you Honda! I am still using the civic that i bought 6 years ago with no issues whatsoever.</p>
+                                <div class="stars d-flex align-items-center justify-content-center p-2 m-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <h5>Arya Stark</h5>
+                                <h5>Curator</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- client Three-->
+                    <div class="col-xs-12 col-lg-4 p-5">
+                        <div class="card" style="width:  100%;  height: auto;">
+                            <img class="card-img-top p-4" src="images/circle-user3.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Thank you Honda! I am still using the civic that i bought 6 years ago with no issues whatsoever.</p>
+                                <div class="stars d-flex align-items-center justify-content-center p-2 m-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <h5>Jar Jar Binks</h5>
+                                <h5>Engineer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- FAQ section -->
+
+        <section class="py-5">
+            <h2 style="text-align: center;">Frequently Asked<span style="color:#E76F51;"> Questions</span> </h2>
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12">
+                        <img height="100%" width="100%" src="images/faq.png" alt="">
+                    </div>
+
+                    <div class="col-lg-6 col-xs-12 g-5">
+                        <div class="accordion" id="accordionExample">
+
+                            <!-- Question 1 -->
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What are the most important things I should know when riding a bike?
+                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally
+                                            compliant bike rider. </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Question 2 -->
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How can I tell if my helmet is old and I need a
+                    new one?
+                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Bear in mind that if the helmet did its job most people would tell you that they did not even hit their head, or did not hit their head that hard. And the thin shells on most helmets now tend to hide any dents in the foam. But if you can see marks on
+                                            the shell or measure any foam crush at all, replace the helmet.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Question 3 -->
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    My bike has been in storage is it safe to ride?
+                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            If the bike was in decent shape when put away, and has not been exposed to the weather, there's probably very little that needs to be done. The tires would be the biggie, likely they're checked and may need replacement (though not for certain). Inflate
+                                            them to listed pressure and check the sidewalls for cracks or bulges.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Question 4 -->
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                    What rules should I follow when riding my bike?
+                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Go With the Traffic Flow.Ride on the right in the same direction as other vehicles. Obey All Traffic Laws. A bicycle is a vehicle and you're a driver. Yield to Traffic When Appropriate. Be Predictable. Stay Alert
+                                            at All Times. Look Before Turning. Watch for Parked Cars.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-                  </div>
-                  <div class="col-xs-12 col-lg-6">
-                      <img width="100%" height="100%"src="images/header-bike.png" alt="">
-                  </div>
-                </div>
         </section>
-        
-    </header>
-    <main>
 
-<!-- featured bikes -->
 
-<section>
-    <div style="text-align: center;">
-        <h2 class="pt-5">Featured Bikes 2021</h2>
-        <small style="color: #E76F51;
-        ;">Best Bike collection</small>
-    </div>
+        <!-- Vintage Bikes  -->
 
-    <!-- featured bikes images -->
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-lg-4 p-5">
-              <img width="100%" height="100%" style=" filter: grayscale(100%);" src="images/feature-bike.jpg" alt="">
-            </div>
-            <div class="col-xs-12 col-lg-4 p-5">
-              <img width="100%" height="100%" src="images/feature-bike.jpg" alt="">
-            </div>
-            <div class="col-xs-12 col-lg-4 p-5">
-              <img width="100%" height="100%" style=" filter: grayscale(100%);" src="images/feature-bike.jpg" alt="">
-            </div>
-          </div>
-      </div>
-</section>
+        <section>
+            <h2 style="text-align: center;">Our Vintage<span style="color:#E76F51;"> Bikes</span> </h2>
+            <div class="container ">
+                <div class="row d-flex justify-content-between p-5">
+                    <div class="col-lg-6 col-xs-12">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+                        </div>
+                    </div>
 
-<!-- Clients Section -->
-
-<section>
-    <h2 style="text-align: center;"><span style="color:#0A0826;">Happy </span><span style="color:#E76F51;
-        ">Client Says</span></h2>
-        <div class="container">
-            <div class="row p-5 m-5">
-                <!-- one client -->
-              <div class="col-lg-3 col-xs-12 border me-5">
-                <img height="200" width="200" src="images/user-1.png" alt="" class="p-3 mx-auto d-block">
-                <p>Thank you Honda! I am still using the civic that i bought 6 years ago with no issues whatsoever.</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+                    <div class="col-lg-6 col-xs-12 gx-5 gy-5">
+                        <p>
+                            <i>"This is about more than bikes and cycling. It’s about the self-belief that change, movement, and freedom is possible, no matter how tough things can sometimes seem. Our range of vintage bikes and cruisers have been inspired by classic Dutch bike, where modern componentry meets timeless design. There’s a model for everyone united by a desire to do things differently. So, if you’re looking to explore your freedom, ride to work or meet up with friends on a sunny afternoon, you’ve taken the right first step. Check out the full range beneath or click the button below to find the right vintage bike or cruiser for you from what's available in your country."</i>
+                        </p>
+                        <h3 style="text-align: center; color:#E76F51;">-Ned Stark</h3>
+                        <h5 style="text-align: center">CEO of Honda Bikes</h5>
+                    </div>
                 </div>
-                <h3>Ross Geller</h3>
-                <h5>Banker</h5>
-              </div>
-                <!-- one client -->
-              <div class="col-lg-3 col-xs-12 p-3 me-5 border">
-                <img height="200" width="200" src="images/user-2.png" alt="" class="p-3 mx-auto d-block">
-                <p>Thank you Honda! I am still using the civic that i bought 6 years ago with no issues whatsoever.</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <h3>Ross Geller</h3>
-                <h5>Banker</h5>
-              </div>
-                <!-- one client -->
-              <div class="col-lg-3 col-xs-12 border me-5">
-                <img height="200" width="200" src="images/user-3.jpg" alt="" class="img-circle p-3 mx-auto d-block">
-                <p>Thank you Honda! I am still using the civic that i bought 6 years ago with no issues whatsoever.</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <h3>Ross Geller</h3>
-                <h5>Banker</h5>
-              </div>
-              
-             
             </div>
-          </div>
 
-</section>
+
+        </section>
+
+        <!-- Warrenty Section -->
+        <section class="container">
+
+            <div class="warranty border p-5">
+                <h1 style="text-align: center;" class="animate__animated animate__heartBeat  animate__delay-2s animate__infinite">10 Years Bike Warranty</h1>
+            </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- Script style -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
